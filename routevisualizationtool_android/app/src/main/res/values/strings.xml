@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MiniProjectDIT355</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoidGFsaGFodXNzYWluNyIsImEiOiJjazNnNTZzd3UwYXk3M3N0NnV1dGVqejR3In0.icANnxJNla_sxuJHKaGhoQ</string>
+    <string name="swedishtransport_api_key">085e19a4d0404c9e842b47c6a1689a2b</string>
+    <string name="vasttrafik_token">Bearer d2aea676-de6b-3ed0-bc24-3eb66535a31d</string>
+</resources>

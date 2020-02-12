@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_button_style"
+    android:padding="2dp"
+    android:id="@+id/note_options"
+    >
+    <Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Delete"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/ic_delete_24dp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"
+        android:id="@+id/btn_delete"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Select All"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/ic_check_box_outline_blank_24dp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"
+        android:id="@+id/btn_select_all"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Unselect all"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/ic_select_all_24dp"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"
+        android:id="@+id/btn_unselect_all"
+        />
+
+</LinearLayout>
